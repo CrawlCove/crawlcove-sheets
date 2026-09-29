@@ -42,6 +42,8 @@ A ready-made template workbook with the script installed and charts on the Summa
 
 The export comes from [Crawl Cove](https://crawlcove.com/?utm_source=github&utm_medium=crawlcove-sheets), the desktop SEO crawler for Windows and Mac: crawl a site, open Reports, Export JSON or CSV, import here. The app's own report ranks fixes by impact and keeps history over time; the sheet is for sharing with a client or building your own pivots.
 
+This repo has its own page on crawlcove.com: [Crawl Cove Google Sheets add-on](https://crawlcove.com/open-source/crawlcove-sheets?utm_source=github&utm_medium=crawlcove-sheets).
+
 ## Related tools
 
 - [crawlcove-js](https://github.com/CrawlCove/crawlcove-js) — `crawlcove-export`, a typed JavaScript/TypeScript library to load, query and convert Crawl Cove exports.
