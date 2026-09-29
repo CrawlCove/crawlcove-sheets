@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: the Apps Script files must be plain scripts (no import/export, V8 runtime)
+        run: "! grep -nE '^(import|export) ' src/*.js"
+      - run: node --check src/lib.js && node --check src/Code.js
+      - run: npm test

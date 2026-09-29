@@ -1,0 +1,18 @@
+{
+  "name": "crawlcove-sheets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Sheets add-on (Apps Script) that imports a Crawl Cove crawl export into a standard SEO audit workbook: pages, issues by type, pages by status, title and meta length flags.",
+  "scripts": {
+    "test": "vitest run",
+    "push": "clasp push"
+  },
+  "keywords": ["seo", "google-sheets", "apps-script", "site-audit", "crawl-cove"],
+  "author": "Crawl Cove",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/CrawlCove/crawlcove-sheets.git" },
+  "homepage": "https://crawlcove.com/?utm_source=github&utm_medium=crawlcove-sheets",
+  "devDependencies": {
+    "vitest": "^5.0.2"
+  }
+}
