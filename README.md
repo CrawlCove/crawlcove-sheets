@@ -44,6 +44,7 @@ The export comes from [Crawl Cove](https://crawlcove.com/?utm_source=github&utm_
 
 ## Related tools
 
+- [crawlcove-js](https://github.com/CrawlCove/crawlcove-js) — `crawlcove-export`, a typed JavaScript/TypeScript library to load, query and convert Crawl Cove exports.
 - [crawlcove-export-spec](https://github.com/CrawlCove/crawlcove-export-spec) — the JSON Schema and CSV column reference this add-on reads.
 - [crawlcove-sf-import](https://github.com/CrawlCove/crawlcove-sf-import) — convert a Screaming Frog export into the Crawl Cove export format, with a report of what carried over.
 - [crawlcove-mcp](https://github.com/CrawlCove/crawlcove-mcp) — the same crawl data for Claude, Cursor and other AI assistants.
